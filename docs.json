@@ -10,8 +10,7 @@
   "colors": {
     "primary": "#113228",
     "light": "#3c6f64",
-    "dark": "#113228",
-    "anchors": { "from": "#113228", "to": "#3c6f64" }
+    "dark": "#113228"
   },
   "topbarLinks": [
     { "name": "Dashboard", "url": "https://app.getkontor.com" }
@@ -20,56 +19,64 @@
     "name": "Get Started",
     "url": "https://app.getkontor.com/signup"
   },
-  "tabs": [
-    { "name": "Guides", "url": "/" },
-    { "name": "Integrations", "url": "/integrations" }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": ["introduction", "quickstart"]
-    },
-    {
-      "group": "Getting Started",
-      "pages": ["getting-started/onboarding", "getting-started/connecting-integrations"]
-    },
-    {
-      "group": "Features",
-      "pages": [
-        "features/decision-queue",
-        "features/chat",
-        "features/meetings",
-        "features/activity",
-        "features/memory"
-      ]
-    },
-    {
-      "group": "Integrations",
-      "pages": [
-        "integrations/overview",
-        "integrations/email",
-        "integrations/calendar",
-        "integrations/communication",
-        "integrations/productivity",
-        "integrations/project-management",
-        "integrations/crm",
-        "integrations/development",
-        "integrations/other"
-      ]
-    },
-    {
-      "group": "Settings",
-      "pages": ["settings/account", "settings/meetings", "settings/usage"]
-    },
-    {
-      "group": "Billing",
-      "pages": ["billing/plans", "billing/manage"]
-    },
-    {
-      "group": "Support",
-      "pages": ["support/troubleshooting", "support/faq"]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": ["introduction", "quickstart"]
+          },
+          {
+            "group": "Getting Started",
+            "pages": ["getting-started/onboarding", "getting-started/connecting-integrations"]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/decision-queue",
+              "features/chat",
+              "features/meetings",
+              "features/activity",
+              "features/memory"
+            ]
+          },
+          {
+            "group": "Settings",
+            "pages": ["settings/account", "settings/meetings", "settings/usage"]
+          },
+          {
+            "group": "Billing",
+            "pages": ["billing/plans", "billing/manage"]
+          },
+          {
+            "group": "Support",
+            "pages": ["support/troubleshooting", "support/faq"]
+          }
+        ]
+      },
+      {
+        "tab": "Integrations",
+        "groups": [
+          {
+            "group": "Integrations",
+            "pages": [
+              "integrations/overview",
+              "integrations/email",
+              "integrations/calendar",
+              "integrations/communication",
+              "integrations/productivity",
+              "integrations/project-management",
+              "integrations/crm",
+              "integrations/development",
+              "integrations/other"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "feedback": { "thumbsRating": true },
   "analytics": {}
 }
