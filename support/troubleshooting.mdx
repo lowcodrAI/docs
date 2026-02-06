@@ -1,0 +1,51 @@
+---
+title: "Troubleshooting"
+description: "Solutions to common issues."
+---
+
+<AccordionGroup>
+  <Accordion title="Integration won't connect">
+    - Make sure you are signed into the correct account (personal vs. work) when the OAuth popup appears.
+    - Some work accounts require admin approval before third-party apps can connect. Check with your IT administrator.
+    - Try disconnecting the integration in **Settings > Integrations**, then reconnecting it.
+    - If the OAuth popup does not appear, clear your browser cookies and try again.
+  </Accordion>
+
+  <Accordion title="Calendar isn't syncing">
+    - Calendar syncs run every 5 minutes. Wait a few minutes after connecting for meetings to appear.
+    - Verify the correct calendar account is connected in **Settings > Meetings**.
+    - Try disconnecting and reconnecting your calendar integration.
+    - If only some events are missing, check that they are not on a sub-calendar that was excluded.
+  </Accordion>
+
+  <Accordion title="Meeting recording didn't work">
+    - Verify you are on a Solo, Pro, or Scale plan. The Free plan does not include recordings.
+    - Make sure you approved the prep brief decision card **before** the meeting started.
+    - The notetaker bot joins 2 minutes before the scheduled start time. If the meeting started early, the bot may have missed the window.
+    - Check that your video conferencing tool (Zoom, Google Meet, Teams) allows external bots to join meetings.
+  </Accordion>
+
+  <Accordion title="Decision Queue is empty">
+    - Connect at least one integration — Gmail is a great starting point.
+    - Enable the **Proactive Agent** in **Settings > Account** (requires Pro or Scale plan).
+    - Try asking Kontor something in Chat to generate your first decision.
+    - If you recently connected an integration, wait a few minutes for Kontor to process incoming data.
+  </Accordion>
+
+  <Accordion title="Emails aren't being sent">
+    - Check that Gmail or Outlook is connected and active in **Settings > Integrations**.
+    - Verify the email draft was **approved** (swiped right), not just viewed.
+    - Check your email's Sent folder — the email may have sent successfully.
+    - If the integration shows as disconnected, reconnect it and try again.
+  </Accordion>
+
+  <Accordion title="Usage limit reached">
+    - Your usage resets monthly on your billing date. Check your reset date in **Settings > Usage**.
+    - Upgrade your plan for higher limits at **Settings > Billing > Change Plan**.
+    - Review your current usage breakdown to see which limit was reached.
+  </Accordion>
+</AccordionGroup>
+
+## Still stuck?
+
+Email **support@getkontor.com** or use the in-app chat. Pro and Scale plans include priority support.

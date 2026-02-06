@@ -1,0 +1,38 @@
+---
+title: "FAQ"
+description: "Frequently asked questions about Kontor."
+---
+
+<AccordionGroup>
+  <Accordion title="Is my data secure?">
+    Yes. All data is encrypted at rest and in transit. Kontor uses OAuth for integrations, so your passwords are never stored. Sensitive data — including API keys, passwords, and credit card numbers — is automatically filtered from memory storage. Each user's data is fully isolated with row-level security.
+  </Accordion>
+
+  <Accordion title="What happens when I connect an integration?">
+    Kontor receives a scoped access token via OAuth. This token only grants the permissions you approved during the connection flow. Kontor can then read and act on data from that tool on your behalf, but always requires your explicit approval via the Decision Queue before taking any action.
+  </Accordion>
+
+  <Accordion title="Can Kontor send emails without my approval?">
+    No. All outgoing actions — emails, calendar events, messages — go through the Decision Queue first. You must explicitly approve each action by swiping right before it is executed. Nothing is sent without your consent.
+  </Accordion>
+
+  <Accordion title="Does Kontor record all my meetings?">
+    No. Recording only happens when you approve the prep brief decision card before a meeting. Recording requires a Solo, Pro, or Scale plan. The notetaker bot announces itself when joining and sends a consent message in the meeting chat.
+  </Accordion>
+
+  <Accordion title="Can I delete my data?">
+    Yes. You can delete individual memories from Settings. You can disconnect integrations at any time, which immediately revokes Kontor's access. To delete your entire account and all associated data, contact **support@getkontor.com**.
+  </Accordion>
+
+  <Accordion title="What's the difference between Free and paid plans?">
+    The Free plan gives you 50 messages, 10 decisions, and 3 integrations per month — enough to try Kontor. Paid plans unlock more capacity, meeting recording, document generation, and the Proactive Agent feature. See [Plans & Pricing](/billing/plans) for a full comparison.
+  </Accordion>
+
+  <Accordion title="Does Kontor work on desktop?">
+    Kontor is available as a mobile app (iOS) and a web dashboard at **app.getkontor.com**. The mobile app offers the best experience with push notifications and swipe gestures for the Decision Queue.
+  </Accordion>
+
+  <Accordion title="How do I get help?">
+    Email **support@getkontor.com** or use the in-app chat. Pro and Scale plans include priority support with faster response times.
+  </Accordion>
+</AccordionGroup>

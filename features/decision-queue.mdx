@@ -1,0 +1,44 @@
+---
+title: "Decision Queue"
+description: "Review and approve AI-generated actions with a simple swipe."
+---
+
+The Decision Queue is Kontor's primary interface. Rather than acting autonomously, Kontor surfaces proposed actions as decision cards for your review. You stay in control while Kontor does the heavy lifting.
+
+## Decision Types
+
+Kontor generates seven types of decisions:
+
+| Type | Description | Example |
+|------|-------------|---------|
+| Email Draft | A composed email ready to send | Follow-up email after a sales call |
+| Meeting Proposal | Suggested meeting or calendar event | Schedule a demo with a lead |
+| Follow-up | Reminder or follow-up action | Check in with client after 1 week |
+| Question | Kontor needs your input | "Should I use formal or casual tone?" |
+| Document | Generated file (PDF, XLSX, PPTX, DOCX) | Quarterly report spreadsheet |
+| Meeting Record | Pre-meeting prep brief | Agenda and context before a call |
+| Meeting Follow-up | Post-meeting summary and actions | Meeting notes with action items |
+
+## Swipe Gestures
+
+Each decision card supports three gestures:
+
+| Gesture | Action | What Happens |
+|---------|--------|--------------|
+| Swipe Right | Approve | Action is executed (email sent, event created, etc.) |
+| Swipe Left | Decline / Edit | Review and modify before approving, or dismiss |
+| Swipe Up | Snooze | Temporarily hide — comes back later |
+
+{/* TODO: add screenshot */}
+
+## Decision Statuses
+
+Every decision moves through one of these statuses:
+
+- **Pending** — Waiting for your review.
+- **Approved** — You swiped right. The action has been executed.
+- **Rejected** — You swiped left and dismissed the decision.
+- **Snoozed** — Temporarily hidden. It will resurface later.
+- **Expired** — No action was taken within the expiration window.
+
+<Tip>Decisions expire after 7 days if not acted on. Review your queue regularly to avoid missing important actions.</Tip>
